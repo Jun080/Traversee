@@ -11,6 +11,7 @@
     --orange-light: #fbf2eb;
     --rouge-light: #f6ebeb;
 }
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 @font-face {
     font-family: "Cinzel Decorative";
     src: local("Cinzel Decorative"), local("CinzelDecorative-Regular"), url("/assets/fonts/CinzelDecorative-Regular.ttf") format("truetype");
