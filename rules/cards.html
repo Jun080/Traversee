@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Traversée - Cartes</title>
+        <link rel="stylesheet" href="../rules/css/styles.css" />
+        <link rel="stylesheet" href="../rules/css/cards.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container-img">
+                <img src="../assets/img/map.png" alt="Carte du plateau - France à travers les époques" />
+            </div>
+            <div class="container-text-header">
+                <h1>Traversée</h1>
+                <p class="lead">Soyez le premier à atteindre la France en rassemblant les ressources nécessaires.</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <article class="rules" id="regles">
+                <section class="rules-layout">
+                    <div class="rules-content">
+                        <section id="cartes">
+                            <h2>Cartes</h2>
+                            <p>Chaque type de carte possède son propre paquet : <em>Vert</em>, <em>Bleu</em>, <em>Noir</em>, <em>Marron</em>.</p>
+                            <div class="cards-grid">
+                                <h3>Vertes</h3>
+                                <div class="card-type">
+                                    <img src="../assets/img/card-verte.png" alt="Carte verte" class="card-type-img" />
+                                    <ul>
+                                        <li><span>Vol de 2 ressources</span> le joueur ciblé perd 2 ressources</li>
+                                        <li><span>Chien de garde agressif</span> reculez de 2 cases</li>
+                                        <li><span>Contact local</span> avancez de 2 cases</li>
+                                        <li><span>Blessure au pied</span> avancez d'1 case quel que soit le dé</li>
+                                        <li><span>Aide locale</span> gagnez 1 nourriture</li>
+                                        <li><span>Usure de chaussures</span> payez 1 argent</li>
+                                    </ul>
+                                </div>
+
+                                <h3>Bleues</h3>
+                                <div class="card-type">
+                                    <img src="../assets/img/card-bleu.png" alt="Carte bleue" class="card-type-img" />
+                                    <ul>
+                                        <li><span>Passeur honnête</span> avancez de 2 cases</li>
+                                        <li><span>Passeur malhonnête</span> payez 6 argent</li>
+                                        <li><span>Sentier bloqué</span> perdez 1 tour ou payez 1 bois</li>
+                                        <li><span>Courant porteur</span> avancez de 3 cases</li>
+                                        <li><span>Vague géante</span> perdez 1 bois</li>
+                                        <li><span>Pêcheur solidaire</span> gagnez 1 nourriture</li>
+                                        <li><span>Mer calme</span> avancez de 2 cases</li>
+                                        <li><span>Tempête</span> reculez de 2 cases</li>
+                                    </ul>
+                                </div>
+
+                                <h3>Noires</h3>
+                                <div class="card-type">
+                                    <img src="../assets/img/card-noir.png" alt="Carte noire" class="card-type-img" />
+                                    <ul>
+                                        <li><span>Contrôle d'identité</span> perdez 1 tour; sans papiers → OQTF</li>
+                                        <li><span>Milice corrompue</span> perdez 1 tour et payez 3 argent</li>
+                                        <li><span>Milice (fouille agressive)</span> perdez 1 tour, 1 bois et 1 nourriture</li>
+                                        <li><span>Milice frontalière</span> perdez 1 tour</li>
+                                    </ul>
+                                </div>
+
+                                <h3>Marron</h3>
+                                <div class="card-type">
+                                    <img src="../assets/img/card-marron.png" alt="Carte marron" class="card-type-img" />
+                                    <ul>
+                                        <li><span>Reçois papier identité</span> garde jusqu'au contrôle milice</li>
+                                        <li><span>Faux documents</span> 1–3 : perdez 1 tour; 4–6 : avancez de 2 cases</li>
+                                        <li><span>Épreuve inattendue</span> lancé de dé pour tous; conséquences</li>
+                                        <li><span>Recule d'une case</span></li>
+                                        <li><span>Reçois 1 nourriture</span></li>
+                                        <li><span>Énorme famine</span> tous donnent 1 nourriture</li>
+                                        <li><span>Croisement de routes</span> échangez votre pion avec la gauche</li>
+                                        <li><span>Sabotage discret</span> choisissez un joueur; il perd 1 ressource</li>
+                                        <li><span>Marché entre migrants</span> échange 1 ressource ↔ 1 ressource</li>
+                                        <li><span>Pari risqué</span> lancez le dé; résultats selon valeur</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <div class="logo-menu">
+            <a href="/rules"><img src="../assets/img/logo.png" alt="Logo Traversée" class="logo" /></a>
+            <nav class="floating-menu" aria-label="Navigation principale">
+                <input id="menu-toggle" type="checkbox" aria-hidden="true" />
+                <label for="menu-toggle" class="burger" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="menu-items">
+                    <ul>
+                        <li>
+                            <label for="menu-toggle"><a href="#objectif">Objectif</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="#contenu">Contenu</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="#regles">Règles</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="cards.html">Cartes</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="cases.html">Cases</a></label>
+                        </li>
+                    </ul>
+                </div>
+                <label for="menu-toggle" class="menu-overlay" aria-hidden="true"></label>
+            </nav>
+        </div>
+    </body>
+</html>
+<script src="menu.js"></script>

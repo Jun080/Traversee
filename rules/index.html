@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Traversée - Règles</title>
+        <link rel="stylesheet" href="../rules/css/styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container-img">
+                <img src="../assets/img/map.png" alt="Carte du plateau - France à travers les époques" />
+            </div>
+            <div class="container-text-header">
+                <h1>Traversée</h1>
+                <p class="lead">Soyez le premier à atteindre la France en rassemblant les ressources nécessaires.</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <article class="rules" id="regles">
+                <section id="objectif">
+                    <h2>Intro / Objectif du jeu</h2>
+                    <p class="lead">Soyez le premier à atteindre la France en rassemblant les ressources nécessaires !</p>
+                </section>
+
+                <section id="contenu">
+                    <h2>Contenu du jeu</h2>
+                    <p>
+                        Le jeu met en scène des familles ou groupes en parcours, cherchant à s'installer, travailler, se protéger ou reconstruire leur
+                        vie en France à différentes époques. Le plateau représente la France à travers les époques et contient des cases
+                        terre/mer/événement.
+                    </p>
+                </section>
+
+                <section class="rules-layout">
+                    <nav class="rules-nav" aria-label="Navigation règles">
+                        <ul>
+                            <li><a href="#mise-en-place">MISE EN PLACE</a></li>
+                            <li><a href="#but-du-jeu">BUT DU JEU</a></li>
+                            <li><a href="#deroulement">DÉROULEMENT</a></li>
+                            <li><a href="#fin-de-partie">FIN DE PARTIE</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="rules-content">
+                        <section id="mise-en-place">
+                            <h2>MISE EN PLACE</h2>
+                            <p><strong>Au début de la partie :</strong></p>
+                            <ul>
+                                <li><span class="numbers">1.</span><span>Chaque joueur reçoit : 2 bois, 2 nourriture.</span></li>
+                                <li>
+                                    <span class="numbers">2.</span
+                                    ><span>Les territoires de départ sont attribués par tirage au sort parmi toutes les cartes Territoire.</span>
+                                </li>
+                                <li><span class="numbers">3.</span><span>Chaque joueur place son pion sur son territoire tiré.</span></li>
+                                <li><span class="numbers">4.</span><span>Celui qui s’est levé le plus tôt commence.</span></li>
+                            </ul>
+                            <p>Les cartes évènements sont placées face cachée dans leurs piles respectives.</p>
+                        </section>
+
+                        <section id="ressources">
+                            <h2>Ressources</h2>
+                            <div class="resources">
+                                <div class="resource">
+                                    <img src="../assets/img/argent.svg" alt="Icône argent" class="res-icon" />
+                                    <h3>Argent</h3>
+                                    <p>Permet de payer le passeur, d'acheter certains effets et se régénère de +1 chaque tour.</p>
+                                    <ul class="ressource-list">
+                                        <li>Échanger contre une autre ressource</li>
+                                        <li>Payer un passeur ou la milice</li>
+                                    </ul>
+                                </div>
+
+                                <div class="resource">
+                                    <img src="../assets/img/nourriture.svg" alt="Icône nourriture" class="res-icon" />
+                                    <h3>Nourriture</h3>
+                                    <p>Consommée tous les 2 tours ; sert à nourrir le groupe et éviter des pénalités.</p>
+                                    <ul class="ressource-list">
+                                        <li>Donner 1 nourriture tous les 2 tours</li>
+                                        <li>
+                                            Si vous n’en avez pas : prenez 1 Jeton Famine <br /><br />Vous avez 1 tour pour trouver de la nourriture.
+                                            <br />Sinon vous retournez à la case départ.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="resource">
+                                    <img src="../assets/img/bois.svg" alt="Icône bois" class="res-icon" />
+                                    <h3>Bois</h3>
+                                    <p>Utilisé pour construire un bateau ou réparer un bateau cassé.</p>
+                                    <ul class="ressource-list">
+                                        <li>Construire un bateau : 3 bois</li>
+                                        <li>Réparer : 1 bois</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="but-du-jeu">
+                            <h2>BUT DU JEU</h2>
+                            <p>Chaque joueur part d’un territoire situé hors de France. Le but est d’être le premier à atteindre la France.</p>
+                            <p>Si un joueur parvient à atteindre la France en remplissant les conditions, il gagne. Les autres joueurs : RIP.</p>
+                        </section>
+
+                        <section id="deroulement">
+                            <h2>DÉROULEMENT</h2>
+                            <h3>1. Tour de jeu</h3>
+                            <p>Le joueur actif lance le dé. Il peut avancer d’un nombre de cases entre 1 et la valeur obtenue, selon son choix.</p>
+
+                            <h4>Case Évènement</h4>
+                            <p>
+                                Si s'arrête sur une case Évènement → il doit piocher une carte de la couleur de la case (Vert, Bleu, Noir, Marron,
+                                Gris).
+                            </p>
+
+                            <h4>Case occupée</h4>
+                            <p>
+                                Si un joueur arrive sur une case où se trouve déjà un autre joueur → l’autre joueur choisit une ressource à lui
+                                prendre.
+                            </p>
+
+                            <h3>2. Choix en fonction de la zone</h3>
+                            <p>Lorsqu’un joueur arrive devant la mer, il peut choisir :</p>
+                            <ul>
+                                <li>Nager</li>
+                                <li>Payer un passeur</li>
+                                <li>Crafter un bateau (coût : 3 bois)</li>
+                                <li>Prendre un autre chemin si le plateau le permet</li>
+                            </ul>
+
+                            <p>
+                                En mer, si son bateau casse et qu’il ne le répare pas immédiatement (1 bois) : au tour suivant, il choisit un chiffre
+                                chance et lance le dé (3 tentatives). S’il ne tombe pas dessus → il doit payer 1 argent, reçoit 1 bois, et répare.
+                            </p>
+
+                            <h3>3. Question d’immigration (fin de tour)</h3>
+                            <p>À la fin de chaque tour, le joueur doit répondre à une question sur l’immigration :</p>
+                            <ul>
+                                <li>Facile → gagne 1 ressource au choix</li>
+                                <li>Moyen → gagne 2 ressources au choix</li>
+                                <li>Difficile → gagne 3 ressources au choix</li>
+                            </ul>
+                            <p>En cas de mauvaise réponse : rien ne se passe.</p>
+
+                            <h3>4. Effets du temps</h3>
+                            <p>Tous les 2 tours : donner 1 nourriture et tirer 1 carte Marron.</p>
+                            <p>Chaque tour : le joueur gagne 1 argent.</p>
+
+                            <h3>5. La contrainte spéciale du chiffre 6</h3>
+                            <p>
+                                Si un joueur obtient 6 : il place la Police Frontière sur le chemin d’un joueur. Ce joueur est bloqué 1 tour et perd 5
+                                ressources. Une carte Évènement peut retirer la Police Frontière.
+                            </p>
+                        </section>
+
+                        <section id="fin-de-partie">
+                            <h2>FIN DE PARTIE</h2>
+                            <p>
+                                La partie se termine dès qu’un joueur atteint la France en possédant les ressources nécessaires. Ce joueur est le
+                                vainqueur. Tous les autres joueurs sont considérés comme RIP.
+                            </p>
+                        </section>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <div class="logo-menu">
+            <a href="/rules"><img src="../assets/img/logo.png" alt="Logo Traversée" class="logo" /></a>
+            <nav class="floating-menu" aria-label="Navigation principale">
+                <input id="menu-toggle" type="checkbox" aria-hidden="true" />
+                <label for="menu-toggle" class="burger" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="menu-items">
+                    <ul>
+                        <li>
+                            <label for="menu-toggle"><a href="#objectif">Objectif</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="#contenu">Contenu</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="#regles">Règles</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="cards.html">Cartes</a></label>
+                        </li>
+                        <li>
+                            <label for="menu-toggle"><a href="cases.html">Cases</a></label>
+                        </li>
+                    </ul>
+                </div>
+                <label for="menu-toggle" class="menu-overlay" aria-hidden="true"></label>
+            </nav>
+        </div>
+    </body>
+</html>
+<script src="menu.js"></script>
