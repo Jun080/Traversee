@@ -171,3 +171,16 @@
         text-decoration: none;
     }
 }
+
+#correct-answer {
+    text-transform: uppercase;
+    border: 5px solid var(--vert);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1.05em;
+    font-weight: 700;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
