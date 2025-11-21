@@ -1,0 +1,173 @@
+#page-play {
+    background-color: var(--blanc);
+    padding: 3rem 0;
+
+    &:not(.question-block) {
+        background-image: url("../../assets/img/bg-top.svg"), url("../../assets/img/bg-bottom.svg");
+        background-size: cover;
+        background-position: top left, bottom right;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    & .quiz-wrap {
+        height: calc(100vh - 6rem);
+    }
+
+    & .container {
+        max-width: 70%;
+    }
+
+    & .header-question,
+    & #question-text {
+        background-color: var(--blanc);
+        color: var(--marron);
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.15);
+        padding: 0.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    & #level-chooser {
+        & .levels {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 4rem;
+
+            & .level-btn {
+                text-transform: uppercase;
+                border: 5px solid var(--creme);
+                border-radius: 20px;
+                padding: 0.5rem 1rem;
+                font-size: 1.05em;
+                font-weight: 700;
+                height: 60px;
+                display: flex;
+                align-items: center;
+
+                &.level-facile {
+                    color: var(--vert);
+                }
+
+                &.level-intermediaire {
+                    color: var(--orange);
+                }
+
+                &.level-expert {
+                    color: var(--rouge);
+                }
+            }
+        }
+    }
+
+    .choices {
+        display: grid;
+        gap: 0.6rem;
+        margin-top: 3rem;
+
+        & .choice {
+            text-transform: uppercase;
+            border: 5px solid var(--creme);
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 1.05em;
+            font-weight: 700;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            color: var(--marron);
+        }
+    }
+
+    & #question-area,
+    & .choices-container {
+        height: 100%;
+    }
+
+    & .choices-container {
+        &.facile {
+            background-color: var(--vert-light);
+            border-top: 21px solid var(--vert);
+        }
+
+        &.intermediaire {
+            background-color: var(--orange-light);
+            border-top: 21px solid var(--orange);
+        }
+
+        &.expert {
+            background-color: var(--rouge-light);
+            border-top: 21px solid var(--rouge);
+        }
+    }
+
+    .quiz-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .choice {
+        padding: 0.7rem 1rem;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background: #f3f6f6;
+        cursor: pointer;
+    }
+    .choice:hover {
+        transform: translateY(-2px);
+    }
+    .choice.correct {
+        outline: 3px solid var(--success);
+        border-color: var(--success);
+        background: #ecf9f0;
+    }
+    .choice.wrong {
+        outline: 3px solid var(--danger);
+        border-color: var(--danger);
+        background: #fbeaea;
+    }
+    .text-answer {
+        margin-top: 0.8rem;
+        display: flex;
+        gap: 0.5rem;
+    }
+    .text-answer input {
+        flex: 1;
+        padding: 0.6rem;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+    }
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    .card-type {
+        padding: 0.6rem;
+        border-radius: 8px;
+        background: #fff;
+        border: 1px solid #eee;
+    }
+    .card-type-img {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .muted {
+        color: #666;
+    }
+    .btn {
+        display: inline-block;
+        padding: 0.6rem 1rem;
+        background: var(--accent);
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+}

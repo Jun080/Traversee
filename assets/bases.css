@@ -1,0 +1,81 @@
+:root {
+    --bleu: #01497c;
+    --vert: #2a7f62;
+    --marron: #5a3b1a;
+    --noir: #0a0f14;
+    --creme: #f1e9d2;
+    --blanc: #fdfcfa;
+    --orange: #d97d3c;
+    --rouge: #a63d3d;
+    --vert-light: #e9f2ef;
+    --orange-light: #fbf2eb;
+    --rouge-light: #f6ebeb;
+}
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("../../assets/fonts/CinzelDecorative-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("../../assets/fonts/CinzelDecorative-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("../../assets/fonts/CinzelDecorative-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+}
+
+body {
+    font-family: helvetica;
+    background: var(--creme);
+    color: var(--noir);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: "Cinzel Decorative";
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+:target {
+    scroll-margin-top: 7rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 8px;
+}

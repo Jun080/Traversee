@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>Traversée - Règles</title>
+        <link rel="stylesheet" href="../assets/bases.css" />
         <link rel="stylesheet" href="../rules/css/styles.css" />
     </head>
     <body>
@@ -13,7 +14,7 @@
             </div>
             <div class="container-text-header">
                 <h1>Traversée</h1>
-                <p class="lead">Soyez le premier à atteindre la France en rassemblant les ressources nécessaires.</p>
+                <p class="lead">Prenez la route. Déjouez les obstacles.</p>
             </div>
         </header>
 
@@ -26,11 +27,33 @@
 
                 <section id="contenu">
                     <h2>Contenu du jeu</h2>
-                    <p>
-                        Le jeu met en scène des familles ou groupes en parcours, cherchant à s'installer, travailler, se protéger ou reconstruire leur
-                        vie en France à différentes époques. Le plateau représente la France à travers les époques et contient des cases
-                        terre/mer/événement.
-                    </p>
+                    <div class="container-list">
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icon-plateau.svg" alt="icon plateau" height="65" /><span
+                                    >1 Plateau (6 territoires + France) + dé</span
+                                >
+                            </li>
+                            <li><img src="/assets/img/icon-pion.svg" alt="icon pion" /><span>6 pions joueurs</span></li>
+                            <li><img src="/assets/img/bois.svg" alt="icon bois" height="43" /><span>35 jetons ressources BOIS</span></li>
+                            <li>
+                                <img src="/assets/img/nourriture.svg" alt="icon nourriture" height="43" /><span>45 jetons ressources NOURRITURE</span>
+                            </li>
+                            <li><img src="/assets/img/argent.svg" alt="icon argent" height="43" /><span>55 jetons ressources ARGENT</span></li>
+                            <li><img src="/assets/img/famine.svg" alt="icon famine" /><span>6 jetons ressources FAMINE</span></li>
+                        </ul>
+                        <ul class="carte-list">
+                            <li><img src="/assets/img/icon-carte-passeur.png" alt="icon carte passeur" /><span>16 Cartes Passeur</span></li>
+                            <li><img src="/assets/img/icon-carte-event.png" alt="icon carte evenement" /><span>36 Cartes Évènement</span></li>
+                            <li><img src="/assets/img/icon-carte-terre.png" alt="icon carte terre" /><span>26 Cartes Terre</span></li>
+                            <li><img src="/assets/img/icon-carte-mer.png" alt="icon carte mer" /><span>26 Cartes Mer</span></li>
+                            <li><img src="/assets/img/icon-carte-milice.png" alt="icon carte milice" /><span>16 Cartes Milice</span></li>
+                            <li><img src="/assets/img/icon-carte-territoire.png" alt="icon carte territoire" /><span>6 Cartes Territoire</span></li>
+                            <li>
+                                <img src="/assets/img/icon-carte-craft.png" alt="icon carte craft" /><span>6 Cartes craft (bateau et cassé)</span>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
 
                 <section class="rules-layout">
@@ -48,7 +71,16 @@
                             <h2>MISE EN PLACE</h2>
                             <p><strong>Au début de la partie :</strong></p>
                             <ul>
-                                <li><span class="numbers">1.</span><span>Chaque joueur reçoit : 2 bois, 2 nourriture.</span></li>
+                                <li>
+                                    <span class="numbers">1.</span>
+                                    <span
+                                        >Chaque joueur reçoit :
+                                        <ul class="container-icon-list">
+                                            <li>2 <img src="/assets/img/nourriture.svg" alt="icon nourriture" height="25" /></li>
+                                            <li>2 <img src="/assets/img/bois.svg" alt="icon bois" height="25" /></li>
+                                        </ul>
+                                    </span>
+                                </li>
                                 <li>
                                     <span class="numbers">2.</span
                                     ><span>Les territoires de départ sont attribués par tirage au sort parmi toutes les cartes Territoire.</span>
@@ -77,10 +109,25 @@
                                     <h3>Nourriture</h3>
                                     <p>Consommée tous les 2 tours ; sert à nourrir le groupe et éviter des pénalités.</p>
                                     <ul class="ressource-list">
-                                        <li>Donner 1 nourriture tous les 2 tours</li>
-                                        <li>
-                                            Si vous n’en avez pas : prenez 1 Jeton Famine <br /><br />Vous avez 1 tour pour trouver de la nourriture.
-                                            <br />Sinon vous retournez à la case départ.
+                                        <li class="icon-img">
+                                            Donner 1
+                                            <img
+                                                src="/assets/img/nourriture.svg"
+                                                alt="icon nourriture"
+                                                height="25"
+                                                style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                            />
+                                            tous les 2 tours
+                                        </li>
+                                        <li class="icon-img">
+                                            Si vous n’en avez pas : prenez 1 Jeton
+                                            <img
+                                                src="/assets/img/famine.svg"
+                                                alt="icon famine"
+                                                height="25"
+                                                style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                            />
+                                            <br /><br />Vous avez 1 tour pour trouver de la nourriture. <br />Sinon vous retournez à la case départ.
                                         </li>
                                     </ul>
                                 </div>
@@ -90,8 +137,24 @@
                                     <h3>Bois</h3>
                                     <p>Utilisé pour construire un bateau ou réparer un bateau cassé.</p>
                                     <ul class="ressource-list">
-                                        <li>Construire un bateau : 3 bois</li>
-                                        <li>Réparer : 1 bois</li>
+                                        <li class="icon-img">
+                                            Construire un bateau : 3
+                                            <img
+                                                src="/assets/img/bois.svg"
+                                                alt="icon bois"
+                                                height="25"
+                                                style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                            />
+                                        </li>
+                                        <li class="icon-img">
+                                            Réparer : 1
+                                            <img
+                                                src="/assets/img/bois.svg"
+                                                alt="icon bois"
+                                                height="25"
+                                                style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                            />
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -121,17 +184,43 @@
                             </p>
 
                             <h3>2. Choix en fonction de la zone</h3>
-                            <p>Lorsqu’un joueur arrive devant la mer, il peut choisir :</p>
+                            <p>Lorsqu’un joueur arrive devant la mer, il peut choisir&nbsp;:</p>
                             <ul>
                                 <li>Nager</li>
                                 <li>Payer un passeur</li>
-                                <li>Crafter un bateau (coût : 3 bois)</li>
+                                <li class="icon-img">
+                                    Crafter un bateau (coût : 3
+                                    <img
+                                        src="/assets/img/bois.svg"
+                                        alt="icon bois"
+                                        height="25"
+                                        style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                    />)
+                                </li>
                                 <li>Prendre un autre chemin si le plateau le permet</li>
                             </ul>
 
-                            <p>
-                                En mer, si son bateau casse et qu’il ne le répare pas immédiatement (1 bois) : au tour suivant, il choisit un chiffre
-                                chance et lance le dé (3 tentatives). S’il ne tombe pas dessus → il doit payer 1 argent, reçoit 1 bois, et répare.
+                            <p class="img-icon">
+                                En mer, si son bateau casse et qu’il ne le répare pas immédiatement (1
+                                <img
+                                    src="/assets/img/bois.svg"
+                                    alt="icon bois"
+                                    height="25"
+                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                />) : au tour suivant, il choisit un chiffre chance et lance le dé (3 tentatives). S’il ne tombe pas dessus → il doit
+                                payer 1
+                                <img
+                                    src="/assets/img/argent.svg"
+                                    alt="icon argent"
+                                    height="25"
+                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                />, reçoit 1
+                                <img
+                                    src="/assets/img/bois.svg"
+                                    alt="icon bois"
+                                    height="25"
+                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                />, et répare.
                             </p>
 
                             <h3>3. Question d’immigration (fin de tour)</h3>
@@ -144,8 +233,25 @@
                             <p>En cas de mauvaise réponse : rien ne se passe.</p>
 
                             <h3>4. Effets du temps</h3>
-                            <p>Tous les 2 tours : donner 1 nourriture et tirer 1 carte Marron.</p>
-                            <p>Chaque tour : le joueur gagne 1 argent.</p>
+                            <p class="img-icon">
+                                Tous les 2 tours : donner 1
+                                <img
+                                    src="/assets/img/nourriture.svg"
+                                    alt="icon nourriture"
+                                    height="25"
+                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                />
+                                et tirer 1 carte Marron.
+                            </p>
+                            <p class="img-icon">
+                                Chaque tour : le joueur gagne 1
+                                <img
+                                    src="/assets/img/argent.svg"
+                                    alt="icon argent"
+                                    height="25"
+                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                />.
+                            </p>
 
                             <h3>5. La contrainte spéciale du chiffre 6</h3>
                             <p>

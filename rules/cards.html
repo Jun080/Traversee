@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>Traversée - Cartes</title>
+        <link rel="stylesheet" href="../assets/bases.css" />
         <link rel="stylesheet" href="../rules/css/styles.css" />
         <link rel="stylesheet" href="../rules/css/cards.css" />
     </head>
@@ -34,8 +35,30 @@
                                         <li><span>Chien de garde agressif</span> reculez de 2 cases</li>
                                         <li><span>Contact local</span> avancez de 2 cases</li>
                                         <li><span>Blessure au pied</span> avancez d'1 case quel que soit le dé</li>
-                                        <li><span>Aide locale</span> gagnez 1 nourriture</li>
-                                        <li><span>Usure de chaussures</span> payez 1 argent</li>
+                                        <li>
+                                            <span>Aide locale</span>
+                                            <div class="icon-img">
+                                                gagnez 1
+                                                <img
+                                                    src="/assets/img/nourriture.svg"
+                                                    alt="icon nourriture"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span>Usure de chaussures</span>
+                                            <div class="icon-img">
+                                                payez 1
+                                                <img
+                                                    src="/assets/img/argent.svg"
+                                                    alt="icon argent"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -44,11 +67,55 @@
                                     <img src="../assets/img/card-bleu.png" alt="Carte bleue" class="card-type-img" />
                                     <ul>
                                         <li><span>Passeur honnête</span> avancez de 2 cases</li>
-                                        <li><span>Passeur malhonnête</span> payez 6 argent</li>
-                                        <li><span>Sentier bloqué</span> perdez 1 tour ou payez 1 bois</li>
+                                        <li>
+                                            <span>Passeur malhonnête</span>
+                                            <div class="icon-img">
+                                                payez 6
+                                                <img
+                                                    src="/assets/img/argent.svg"
+                                                    alt="icon argent"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span>Sentier bloqué</span>
+                                            <div class="icon-img">
+                                                perdez 1 tour ou payez 1
+                                                <img
+                                                    src="/assets/img/bois.svg"
+                                                    alt="icon bois"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
                                         <li><span>Courant porteur</span> avancez de 3 cases</li>
-                                        <li><span>Vague géante</span> perdez 1 bois</li>
-                                        <li><span>Pêcheur solidaire</span> gagnez 1 nourriture</li>
+                                        <li>
+                                            <span>Vague géante</span>
+                                            <div class="icon-img">
+                                                perdez 1
+                                                <img
+                                                    src="/assets/img/bois.svg"
+                                                    alt="icon bois"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span>Pêcheur solidaire</span>
+                                            <div class="icon-img">
+                                                gagnez 1
+                                                <img
+                                                    src="/assets/img/nourriture.svg"
+                                                    alt="icon nourriture"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
                                         <li><span>Mer calme</span> avancez de 2 cases</li>
                                         <li><span>Tempête</span> reculez de 2 cases</li>
                                     </ul>
@@ -59,8 +126,32 @@
                                     <img src="../assets/img/card-noir.png" alt="Carte noire" class="card-type-img" />
                                     <ul>
                                         <li><span>Contrôle d'identité</span> perdez 1 tour; sans papiers → OQTF</li>
-                                        <li><span>Milice corrompue</span> perdez 1 tour et payez 3 argent</li>
-                                        <li><span>Milice (fouille agressive)</span> perdez 1 tour, 1 bois et 1 nourriture</li>
+                                        <li>
+                                            <span>Milice corrompue</span>
+                                            <div class="icon-img">
+                                                perdez 1 tour et payez 3
+                                                <img
+                                                    src="/assets/img/argent.svg"
+                                                    alt="icon argent"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span>Milice (fouille agressive)</span>
+                                            <div class="icon-img">
+                                                perdez 1 tour, 1
+                                                <img
+                                                    src="/assets/img/bois.svg"
+                                                    alt="icon bois"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                                et 1 <img src="/assets/img/nourriture.svg" alt="icon nourriture" height="25" style="display:
+                                                inline-block; vertical-align: middle; margin: 0 6px"
+                                            </div>
+                                        </li>
                                         <li><span>Milice frontalière</span> perdez 1 tour</li>
                                     </ul>
                                 </div>
@@ -70,11 +161,33 @@
                                     <img src="../assets/img/card-marron.png" alt="Carte marron" class="card-type-img" />
                                     <ul>
                                         <li><span>Reçois papier identité</span> garde jusqu'au contrôle milice</li>
-                                        <li><span>Faux documents</span> 1–3 : perdez 1 tour; 4–6 : avancez de 2 cases</li>
+                                        <li><span>Faux documents</span> 1 - 3 : perdez 1 tour; <br />4 - 6 : avancez de 2 cases</li>
                                         <li><span>Épreuve inattendue</span> lancé de dé pour tous; conséquences</li>
                                         <li><span>Recule d'une case</span></li>
-                                        <li><span>Reçois 1 nourriture</span></li>
-                                        <li><span>Énorme famine</span> tous donnent 1 nourriture</li>
+                                        <li>
+                                            <div class="icon-img">
+                                                <span>Reçois 1</span>
+                                                <img
+                                                    src="/assets/img/nourriture.svg"
+                                                    alt="icon nourriture"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <span>Énorme famine</span>
+                                            <div class="icon-img">
+                                                tous donnent 1
+                                                <img
+                                                    src="/assets/img/nourriture.svg"
+                                                    alt="icon nourriture"
+                                                    height="25"
+                                                    style="display: inline-block; vertical-align: middle; margin: 0 6px"
+                                                />
+                                            </div>
+                                        </li>
                                         <li><span>Croisement de routes</span> échangez votre pion avec la gauche</li>
                                         <li><span>Sabotage discret</span> choisissez un joueur; il perd 1 ressource</li>
                                         <li><span>Marché entre migrants</span> échange 1 ressource ↔ 1 ressource</li>
@@ -100,13 +213,13 @@
                 <div class="menu-items">
                     <ul>
                         <li>
-                            <label for="menu-toggle"><a href="#objectif">Objectif</a></label>
+                            <label for="menu-toggle"><a href="./#objectif">Objectif</a></label>
                         </li>
                         <li>
-                            <label for="menu-toggle"><a href="#contenu">Contenu</a></label>
+                            <label for="menu-toggle"><a href="./#contenu">Contenu</a></label>
                         </li>
                         <li>
-                            <label for="menu-toggle"><a href="#regles">Règles</a></label>
+                            <label for="menu-toggle"><a href="./#regles">Règles</a></label>
                         </li>
                         <li>
                             <label for="menu-toggle"><a href="cards.html">Cartes</a></label>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>QCM - Jeu</title>
+        <link rel="stylesheet" href="../assets/bases.css" />
+        <link rel="stylesheet" href="css/quiz.css" />
+    </head>
+    <body id="page-play">
+        <main class="quiz-wrap">
+            <header class="quiz-header container">
+                <button id="back"><img src="../assets/img/retour.svg" alt="Retour" height="30" /></button>
+                <h1 id="quiz-title"></h1>
+            </header>
+
+            <section id="level-chooser" class="level-chooser">
+                <div class="header-question">
+                    <h2 class="container"></h2>
+                </div>
+                <div class="levels container">
+                    <button data-level="1" class="level-btn h2 level-facile">Niveau Facile</button>
+                    <button data-level="2" class="level-btn h2 level-intermediaire">Niveau Intermédiaire</button>
+                    <button data-level="3" class="level-btn h2 level-expert">Niveau Expert</button>
+                </div>
+            </section>
+            <section id="question-area" style="display: none">
+                <h2 id="question-text"></h2>
+                <div class="choices-container">
+                    <div id="choices" class="choices container"></div>
+                </div>
+                <div id="text-answer" class="text-answer container" style="display: none">
+                    <input id="text-input" type="text" placeholder="Votre réponse" />
+                    <button id="text-submit">Valider</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/quiz.js" defer></script>
+    </body>
+</html>

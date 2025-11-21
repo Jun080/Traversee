@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>QCM - Mauvaise réponse</title>
+        <link rel="stylesheet" href="../assets/bases.css" />
+        <link rel="stylesheet" href="css/quiz.css" />
+    </head>
+    <body id="page-fail">
+        <main class="quiz-wrap container" style="padding: 3rem 0; text-align: center">
+            <h1>Dommage, la réponse était...</h1>
+            <div class="result-row" style="margin-top: 1rem">
+                <img src="../assets/img/fail-img.svg" alt="Échec" />
+                <h2 id="correct-answer"></h2>
+            </div>
+            <div style="margin-top: 2rem">
+                <a id="next-link" href="play.html" class="btn"><img src="../assets/img/continuer.svg" alt="Continuer" height="30" /></a>
+            </div>
+            <script>
+                (function () {
+                    function param(name) {
+                        var m = new RegExp("[?&]" + name + "=([^&]*)").exec(window.location.search);
+                        return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : "";
+                    }
+                    var correct = param("correct") || "";
+                    var qid = param("id") || "";
+                    if (!correct) {
+                        try {
+                            correct = sessionStorage.getItem("lastCorrect") || "";
+                        } catch (e) {
+                            correct = correct || "";
+                        }
+                    }
+                    var h = document.getElementById("correct-answer");
+                    if (h) {
+                        if (correct) {
+                            h.textContent = correct;
+                            return;
+                        }
+                        if (qid) {
+                            fetch("./data/questions.json")
+                                .then(function (r) {
+                                    return r.json();
+                                })
+                                .then(function (data) {
+                                    var q = (data.questions || []).find(function (x) {
+                                        return String(x.id) === String(qid);
+                                    });
+                                    if (q) {
+                                        var text = q.qtype === "text" ? q.answer_text || "" : (q.choices && q.choices[q.answer]) || "";
+                                        h.textContent = text;
+                                    }
+                                })
+                                .catch(function () {});
+                        }
+                    }
+                })();
+            </script>
+        </main>
+    </body>
+</html>

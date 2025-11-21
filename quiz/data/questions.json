@@ -1,0 +1,828 @@
+{
+    "questions": [
+        {
+            "id": "t1_c1_l1",
+            "card": "Les premiers migrants industriels (XIXe siècle",
+            "period": "XIXe siècle",
+            "tour": 1,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Pourquoi la France fait-elle venir des migrants vers 1880 ?",
+            "choices": ["Pour tourner des films", "Pour combler un manque de main-d’œuvre", "Pour développer le tourisme"],
+            "answer": 1
+        },
+        {
+            "id": "t1_c1_l2",
+            "card": "Les premiers migrants industriels (XIXe siècle)",
+            "tour": 1,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Quel secteur manque le plus de travailleurs ?",
+            "choices": ["Mines", "Administration", "Agriculture"],
+            "answer": 0
+        },
+        {
+            "id": "t1_c1_l3",
+            "card": "Les premiers migrants industriels (XIXe siècle)",
+            "tour": 1,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Quelle nationalité est la plus présente dans les mines du Nord vers 1900 ?",
+            "choices": ["Espagnols", "Polonais", "Marocains"],
+            "answer": 1
+        },
+
+        {
+            "id": "t1_c2_l1",
+            "card": "Italiens et Belges (début XXe siècle)",
+            "tour": 1,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les Italiens étaient-ils nombreux en France avant 1930 ?",
+            "choices": ["Oui", "Non"],
+            "answer": 0
+        },
+        {
+            "id": "t1_c2_l2",
+            "card": "Italiens et Belges (début XXe siècle)",
+            "tour": 1,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Pourquoi les Belges migrent-ils vers la France ?",
+            "choices": [
+                "Suivre des études supérieures dans les grandes universités françaises",
+                "Industrie / mines",
+                "Participer à la colonisation agricole en Outre-mer"
+            ],
+            "answer": 1
+        },
+        {
+            "id": "t1_c2_l3",
+            "card": "Italiens et Belges (début XXe siècle)",
+            "tour": 1,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Principal moteur de l’immigration italienne avant 1914 ?",
+            "choices": ["Politique", "Économique", "Religieux"],
+            "answer": 1
+        },
+
+        {
+            "id": "t1_c3_l1",
+            "card": "Conditions des foyers SONACOTRA (années 1950)",
+            "tour": 1,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Les conditions de vie y étaient confortables.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t1_c3_l2",
+            "card": "Conditions des foyers SONACOTRA (années 1950)",
+            "tour": 1,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Les travailleurs immigrés y sont souvent isolés.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t1_c3_l3",
+            "card": "Conditions des foyers SONACOTRA (années 1950)",
+            "tour": 1,
+            "level": 3,
+            "qtype": "tf",
+            "question": "Les foyers SONACOTRA datent des années 1950.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+
+        {
+            "id": "t1_c4_l1",
+            "card": "Réfugiés politiques (années 1970)",
+            "tour": 1,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Dans les années 1970, la France accueille des réfugiés du :",
+            "choices": ["Viêt Nam", "Cambodge", "Chili", "Tous"],
+            "answer": 3
+        },
+        {
+            "id": "t1_c4_l2",
+            "card": "Réfugiés politiques (années 1970)",
+            "tour": 1,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Les réfugiés fuient souvent les ________.",
+            "choices": [
+                "Des persécutions politiques, ethniques ou idéologiques",
+                "Des crises économiques locales et chômage massif",
+                "Des conflits intercommunautaires ponctuels",
+                "Des migrations volontaires pour opportunités professionnelles"
+            ],
+            "answer": 0
+        },
+        {
+            "id": "t1_c4_l3",
+            "card": "Réfugiés politiques (années 1970)",
+            "tour": 1,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Ils fuient la dictature de ______ (Chili).",
+            "choices": ["Pinochet", "Mao", "Castro", "Franco"],
+            "answer": 0
+        },
+
+        {
+            "id": "t1_c5_l1",
+            "card": "Police des frontières 1970",
+            "tour": 1,
+            "level": 1,
+            "qtype": "tf",
+            "question": "L’immigration de travail est-elle stoppée en 1974 ?",
+            "choices": ["Oui", "Non"],
+            "answer": 0
+        },
+        {
+            "id": "t1_c5_l2",
+            "card": "Police des frontières 1970",
+            "tour": 1,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Le regroupement familial est-il annulé en 1974 ?",
+            "choices": ["Oui", "Non"],
+            "answer": 1
+        },
+        {
+            "id": "t1_c5_l3",
+            "card": "Police des frontières 1970",
+            "tour": 1,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Quel organisme gère l’asile ?",
+            "choices": ["CNRS", "OFPRA", "ONU"],
+            "answer": 1
+        },
+
+        {
+            "id": "t2_c1_l1",
+            "card": "Immigration des années 1930",
+            "tour": 2,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Quel pays envoie beaucoup d’immigrés vers la France dans les années 30 ?",
+            "choices": ["Allemagne", "Espagne", "Canada"],
+            "answer": 1
+        },
+        {
+            "id": "t2_c1_l2",
+            "card": "Immigration des années 1930",
+            "tour": 2,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Pourquoi ces migrants viennent-ils ?",
+            "choices": ["Famine et crise agricole", "Guerre civile et instabilité politique", "Opportunités d’études et bourses"],
+            "answer": 1
+        },
+        {
+            "id": "t2_c1_l3",
+            "card": "Immigration des années 1930",
+            "tour": 2,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "En 1939, la France accueille environ :",
+            "choices": ["110 000 réfugiés espagnols", "200 000 à 300 000", "400 000 à 500 000"],
+            "answer": 2
+        },
+
+        {
+            "id": "t2_c2_l1",
+            "card": "Après-guerre et reconstruction (1945–1950)",
+            "tour": 2,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Après 1945, la France manque de main-d’œuvre.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t2_c2_l2",
+            "card": "Après-guerre et reconstruction (1945–1950)",
+            "tour": 2,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "La reconstruction industrielle et urbaine de l’après-guerre mobilise :",
+            "choices": [
+                "uniquement des ouvriers français diplômés",
+                "majoritairement des travailleurs français, mais aussi des immigrés temporaires et anciens prisonniers de guerre",
+                "seulement des soldats démobilisés",
+                "des bénévoles étrangers non rémunérés"
+            ],
+            "answer": 1
+        },
+        {
+            "id": "t2_c2_l3",
+            "card": "Après-guerre et reconstruction (1945–1950)",
+            "tour": 2,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "La France signe des accords de main-d’œuvre avec :",
+            "choices": ["Maroc", "Italie", "Yougoslavie", "Tous"],
+            "answer": 3
+        },
+
+        {
+            "id": "t2_c3_l1",
+            "card": "Les Portugais (années 1960)",
+            "tour": 2,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Pourquoi beaucoup de Portugais arrivent-ils en France ?",
+            "choices": ["Pour fuir la dictature de Salazar", "Pour ouvrir des restaurants", "Pour étudier"],
+            "answer": 0
+        },
+        {
+            "id": "t2_c3_l2",
+            "card": "Les Portugais (années 1960)",
+            "tour": 2,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Ils viennent surtout travailler dans :",
+            "choices": ["L’administration", "Le bâtiment", "Les banques"],
+            "answer": 1
+        },
+        {
+            "id": "t2_c3_l3",
+            "card": "Les Portugais (années 1960)",
+            "tour": 2,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "La migration portugaise se fait souvent :",
+            "choices": ["Légalement et facilement", "Par fuite nocturne via l'Espagne", "Par bateau direct"],
+            "answer": 1
+        },
+
+        {
+            "id": "t2_c4_l1",
+            "card": "Maghreb et France (années 1960)",
+            "tour": 2,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Quels pays du Maghreb envoient le plus de travailleurs dans les années 60 ?",
+            "choices": ["Maroc & Algérie", "Égypte & Tunisie", "Lybie & Soudan"],
+            "answer": 0
+        },
+        {
+            "id": "t2_c4_l2",
+            "card": "Maghreb et France (années 1960)",
+            "tour": 2,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Beaucoup viennent pour :",
+            "choices": ["Le tourisme", "Les usines automobiles", "Les hôpitaux"],
+            "answer": 1
+        },
+        {
+            "id": "t2_c4_l3",
+            "card": "Maghreb et France (années 1960)",
+            "tour": 2,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Les Algériens ont un statut particulier avant 1962 car :",
+            "choices": ["Ils sont considérés comme Français administrativement", "Ils sont citoyens UE", "Ils sont réfugiés officiels"],
+            "answer": 0
+        },
+
+        {
+            "id": "t2_c5_l1",
+            "card": "Femmes immigrées (années 1970)",
+            "tour": 2,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Les femmes migrent surtout après les années 1970.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t2_c5_l2",
+            "card": "Femmes immigrées (années 1970)",
+            "tour": 2,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Elles migrent principalement pour le travail industriel.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t2_c5_l3",
+            "card": "Femmes immigrées (années 1970)",
+            "tour": 2,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Les femmes sont souvent regroupées dans :",
+            "choices": ["Le textile", "L’ingénierie", "L’armée"],
+            "answer": 0
+        },
+
+        {
+            "id": "t3_c1_l1",
+            "card": "Immigration africaine subsaharienne (années 1960)",
+            "tour": 3,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les migrations d’Afrique subsaharienne augmentent à partir :",
+            "choices": ["1850", "1960", "2000"],
+            "answer": 1
+        },
+        {
+            "id": "t3_c1_l2",
+            "card": "Immigration africaine subsaharienne (années 1960)",
+            "tour": 3,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Elles concernent beaucoup :",
+            "choices": [
+                "Étudiants et techniciens qualifiés envoyés dans le cadre d’accords bilatéraux",
+                "Athlètes",
+                "Travailleurs saisonniers sans formation"
+            ],
+            "answer": 0
+        },
+        {
+            "id": "t3_c1_l3",
+            "card": "Immigration africaine subsaharienne (années 1960)",
+            "tour": 3,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "La principale langue d’origine est souvent :",
+            "choices": ["Français", "Langues locales africaines, souvent mêlées au français", "Swahili"],
+            "answer": 1
+        },
+
+        {
+            "id": "t3_c2_l1",
+            "card": "Immigration européenne récente (années 2000)",
+            "tour": 3,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Depuis les années 2000, la France accueille des travailleurs polonais.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t3_c2_l2",
+            "card": "Immigration européenne récente (années 2000)",
+            "tour": 3,
+            "level": 2,
+            "qtype": "tf",
+            "question": "L’UE facilite les migrations de travail internes.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t3_c2_l3",
+            "card": "Immigration européenne récente (années 2000)",
+            "tour": 3,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Le « plombier polonais » renvoie à :",
+            "choices": ["Une augmentation de salaires", "Peur de concurrence", "Un personnage de BD"],
+            "answer": 1
+        },
+
+        {
+            "id": "t3_c3_l1",
+            "card": "Demande d’asile (2010–2020)",
+            "tour": 3,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les principales demandes viennent souvent de :",
+            "choices": ["Syrie", "Afghanistan", "Soudan", "Tous"],
+            "answer": 3
+        },
+        {
+            "id": "t3_c3_l2",
+            "card": "Demande d’asile (2010–2020)",
+            "tour": 3,
+            "level": 2,
+            "qtype": "text",
+            "question": "L’asile protège des personnes ________.",
+            "answer_text": "persécutées"
+        },
+        {
+            "id": "t3_c3_l3",
+            "card": "Demande d’asile (2010–2020)",
+            "tour": 3,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "L’asile est étudié par :",
+            "choices": ["OFPRA", "CNRS", "UNESCO"],
+            "answer": 0
+        },
+
+        {
+            "id": "t3_c4_l1",
+            "card": "Les Roms en France",
+            "tour": 3,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les Roms sont originaires d’Europe de :",
+            "choices": ["Sud", "Est", "Nord"],
+            "answer": 1
+        },
+        {
+            "id": "t3_c4_l2",
+            "card": "Les Roms en France",
+            "tour": 3,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Beaucoup vivent en :",
+            "choices": ["Campements précaires", "Logements sociaux temporaires", "Résidences adaptées"],
+            "answer": 0
+        },
+        {
+            "id": "t3_c4_l3",
+            "card": "Les Roms en France",
+            "tour": 3,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Leur migration est souvent :",
+            "choices": [
+                "Des flux récents depuis l’Europe de l’Est après 2000",
+                "Une présence continue depuis plusieurs siècles en Europe",
+                "Une immigration exclusivement saisonnière"
+            ],
+            "answer": 1
+        },
+
+        {
+            "id": "t3_c5_l1",
+            "card": "Intégration sociale période contemporaine",
+            "tour": 3,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Beaucoup d’immigrés obtiennent la nationalité française.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t3_c5_l2",
+            "card": "Intégration sociale période contemporaine",
+            "tour": 3,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Le droit du sol existe en France.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t3_c5_l3",
+            "card": "Intégration sociale période contemporaine",
+            "tour": 3,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Le « modèle républicain » encourage :",
+            "choices": ["L’assimilation", "Le multiculturalisme"],
+            "answer": 0
+        },
+
+        {
+            "id": "t4_c1_l1",
+            "card": "Migrants économiques (période contemporaine)",
+            "tour": 4,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Ils partent pour :",
+            "choices": ["Avoir un meilleur salaire", "Améliorer leur niveau de vie", "S’installer temporairement"],
+            "answer": 1
+        },
+        {
+            "id": "t4_c1_l2",
+            "card": "Migrants économiques (période contemporaine)",
+            "tour": 4,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Ils ciblent souvent :",
+            "choices": [
+                "Soins de santé spécialisés",
+                "Industries diverses incluant construction, production et technologies émergentes",
+                "Un large éventail de métiers nécessitant des compétences variées"
+            ],
+            "answer": 2
+        },
+        {
+            "id": "t4_c1_l3",
+            "card": "Migrants économiques (période contemporaine)",
+            "tour": 4,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "L’expression « brain drain » signifie :",
+            "choices": ["fuite des cerveaux", "douleur cerebrale", "coupure du cerveau"],
+            "answer": 0
+        },
+
+        {
+            "id": "t4_c2_l1",
+            "card": "Migration clandestine (période contemporaine)",
+            "tour": 4,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Certains migrants prennent des routes dangereuses.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t4_c2_l2",
+            "card": "Migration clandestine (période contemporaine)",
+            "tour": 4,
+            "level": 2,
+            "qtype": "tf",
+            "question": "La Méditerranée est une zone de passage facile par rapport à la Manche.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t4_c2_l3",
+            "card": "Migration clandestine (période contemporaine)",
+            "tour": 4,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Les passeurs sont souvent :",
+            "choices": ["Des organisations mafieuses", "Des intermédiaires informels liés aux communautés", "Des transporteurs commerciaux"],
+            "answer": 0
+        },
+
+        {
+            "id": "t4_c3_l1",
+            "card": "Immigration et travail (période contemporaine)",
+            "tour": 4,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Beaucoup d’immigrés travaillent dans :",
+            "choices": ["BTP", "Livraison", "Logistique"],
+            "answer": 0
+        },
+        {
+            "id": "t4_c3_l2",
+            "card": "Immigration et travail (période contemporaine)",
+            "tour": 4,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Certains secteurs fonctionnent grâce aux immigrés comme :",
+            "choices": ["Agriculture", "Hôtellerie", "Nettoyage", "Tous"],
+            "answer": 3
+        },
+        {
+            "id": "t4_c3_l3",
+            "card": "Immigration et travail (période contemporaine)",
+            "tour": 4,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Le travail au noir concerne :",
+            "choices": [
+                "Étudiants étrangers en jobs ponctuels",
+                "Travailleurs légaux mais payés en espèces",
+                "Employés domestiques sans contrat officiel"
+            ],
+            "answer": 2
+        },
+
+        {
+            "id": "t4_c4_l1",
+            "card": "Sans-papiers (période contemporaine)",
+            "tour": 4,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Tous les sans-papiers sont clandestins.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t4_c4_l2",
+            "card": "Sans-papiers (période contemporaine)",
+            "tour": 4,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Certains perdent leur titre par expiration.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t4_c4_l3",
+            "card": "Sans-papiers (période contemporaine)",
+            "tour": 4,
+            "level": 3,
+            "qtype": "tf",
+            "question": "Des régularisations existent.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+
+        {
+            "id": "t4_c5_l1",
+            "card": "Les réfugiés modernes (2010)",
+            "tour": 4,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Beaucoup fuient :",
+            "choices": ["La guerre", "La famine", "Les catastrophes naturelles"],
+            "answer": 0
+        },
+        {
+            "id": "t4_c5_l2",
+            "card": "Les réfugiés modernes (2010)",
+            "tour": 4,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Une grande crise migratoire a eu lieu en :",
+            "choices": ["2015", "2012", "2018"],
+            "answer": 0
+        },
+        {
+            "id": "t4_c5_l3",
+            "card": "Les réfugiés modernes (2010)",
+            "tour": 4,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Le pays ayant généré le plus grand nombre de réfugiés vers l’Europe en 2015 est :",
+            "choices": ["Syrie", "Afghanistan", "Érythrée", "Irak"],
+            "answer": 0
+        },
+
+        {
+            "id": "t5_c1_l1",
+            "card": "Logement et immigration",
+            "tour": 5,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les immigrés sont parfois logés en :",
+            "choices": ["HLM", "Tentes", "Les deux"],
+            "answer": 2
+        },
+        {
+            "id": "t5_c1_l2",
+            "card": "Logement et immigration",
+            "tour": 5,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Les marchands de sommeil :",
+            "choices": ["Aident les migrants", "Exploitent les migrants"],
+            "answer": 1
+        },
+        {
+            "id": "t5_c1_l3",
+            "card": "Logement et immigration",
+            "tour": 5,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Qu’est-ce qui caractérise un logement insalubre ?",
+            "choices": [
+                "Il présente des risques immédiats pour la santé et la sécurité des occupants",
+                "Il ne respecte pas certaines normes administratives mais reste habitable",
+                "Il manque de confort ou d’équipements mais ne met pas en danger",
+                "Il est temporairement toléré malgré des défauts mineurs"
+            ],
+            "answer": 0
+        },
+        {
+            "id": "t5_c2_l1",
+            "card": "École et intégration",
+            "tour": 5,
+            "level": 1,
+            "qtype": "tf",
+            "question": "L’école est un facteur d’intégration.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        },
+        {
+            "id": "t5_c2_l2",
+            "card": "École et intégration",
+            "tour": 5,
+            "level": 2,
+            "qtype": "tf",
+            "question": "Tous les enfants issus de l’immigration bénéficient automatiquement d’une scolarisation.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t5_c2_l3",
+            "card": "École et intégration",
+            "tour": 5,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Le programme UPE2A concerne :",
+            "choices": [
+                "Les élèves récemment arrivés en France et non francophones",
+                "Les enfants de migrants francophones qui ont besoin de soutien",
+                "Les enfants issus de familles migrantes vivant dans un quartier prioritaire",
+                "Les enfants d’immigrés ayant un double parcours scolaire international"
+            ],
+            "answer": 0
+        },
+
+        {
+            "id": "t5_c3_l1",
+            "card": "Religions et migrations",
+            "tour": 5,
+            "level": 1,
+            "qtype": "mcq",
+            "question": "Les migrations récentes en France ont principalement contribué à :",
+            "choices": [
+                "Une diversification religieuse marquée",
+                "La concentration d’une seule religion",
+                "La disparition des pratiques religieuses"
+            ],
+            "answer": 0
+        },
+        {
+            "id": "t5_c3_l2",
+            "card": "Religions et migrations",
+            "tour": 5,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "La laïcité française garantit :",
+            "choices": [
+                "La neutralité de l’État vis-à-vis de toutes les religions",
+                "La liberté totale de pratiquer sa religion sans cadre légal",
+                "La primauté de certaines religions"
+            ],
+            "answer": 0
+        },
+        {
+            "id": "t5_c3_l3",
+            "card": "Religions et migrations",
+            "tour": 5,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Dans le cadre de la laïcité, les institutions publiques doivent :",
+            "choices": [
+                "Traiter équitablement les usagers de toutes confessions",
+                "Restreindre l’expression religieuse des migrants",
+                "Favoriser certaines religions"
+            ],
+            "answer": 0
+        },
+
+        {
+            "id": "t5_c4_l1",
+            "card": "Culture immigrée",
+            "tour": 5,
+            "level": 1,
+            "qtype": "text",
+            "question": "Les immigrés apportent leur ________.",
+            "answer_text": "culture"
+        },
+        {
+            "id": "t5_c4_l2",
+            "card": "Culture immigrée",
+            "tour": 5,
+            "level": 2,
+            "qtype": "mcq",
+            "question": "Exemple de contribution culturelle :",
+            "choices": ["Cuisine", "Musique", "Sport", "Tous"],
+            "answer": 3
+        },
+        {
+            "id": "t5_c4_l3",
+            "card": "Culture immigrée",
+            "tour": 5,
+            "level": 3,
+            "qtype": "mcq",
+            "question": "Quelle influence des immigrés est la plus marquante dans la gastronomie française ?",
+            "choices": ["Cuisine", "Musique", "Associations", "Mode"],
+            "answer": 0
+        },
+
+        {
+            "id": "t5_c5_l1",
+            "card": "Discriminations",
+            "tour": 5,
+            "level": 1,
+            "qtype": "tf",
+            "question": "Certains immigrés subissent rarement des discriminations.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t5_c5_l2",
+            "card": "Discriminations",
+            "tour": 5,
+            "level": 2,
+            "qtype": "tf",
+            "question": "L’État n’a jamais mis en place d’instance spécifique pour lutter contre les discriminations liées à l’origine.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 1
+        },
+        {
+            "id": "t5_c5_l3",
+            "card": "Discriminations",
+            "tour": 5,
+            "level": 3,
+            "qtype": "tf",
+            "question": "La HALDE traite ces situations.",
+            "choices": ["Vrai", "Faux"],
+            "answer": 0
+        }
+    ]
+}
